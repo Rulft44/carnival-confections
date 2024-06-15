@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "carnivalconfections",
+	"version": "${version}",
+	"name": "Carnival Confections",
+	"description": "This mod focuses on bringing the vibrant and whimsical culinary delights of a carnival into the Minecraft world.",
+	"authors": [
+		"Rulft44"
+	],
+	"contact": {
+		"homepage": "https://rulft.carrd.co/",
+		"sources": "https://github.com/Rulft44/carnival-confections"
+	},
+	"license": "MIT",
+	"icon": "assets/carnivalconfections/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.rulft.carnivalconfections.CarnivalConfections"
+		],
+		"fabric-datagen": [
+			"net.rulft.carnivalconfections.CarnivalConfectionsDataGenerator"
+		]
+	},
+	"mixins": [
+		"carnivalconfections.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
