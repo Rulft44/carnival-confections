@@ -3,6 +3,7 @@ package net.rulft.carnivalconfections;
 import net.fabricmc.api.ModInitializer;
 
 import net.rulft.carnivalconfections.init.ModFoods;
+import net.rulft.carnivalconfections.init.ModItemGroups;
 import net.rulft.carnivalconfections.init.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,5 +18,6 @@ public class CarnivalConfections implements ModInitializer {
 		//ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModFoods.registerModFoods();
+		ModItemGroups.registerItemGroups();
 	}
 }

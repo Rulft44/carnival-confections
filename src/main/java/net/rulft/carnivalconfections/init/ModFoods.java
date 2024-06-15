@@ -11,11 +11,11 @@ import net.rulft.carnivalconfections.CarnivalConfections;
 
 public class ModFoods {
 
-    public static final Item CANDIED_APPLE = registerItem("candied_apple", new Item(new Item.Settings()));
-    public static final Item CANDY = registerItem("candy", new Item(new Item.Settings()));
+    public static final Item CANDIED_APPLE = registerItem("candied_apple", new Item(new Item.Settings().food(ModFoodComponents.CANDIED_APPLE)));
+    public static final Item CANDY = registerItem("candy", new Item(new Item.Settings().food(ModFoodComponents.CANDY)));
 
 
-    private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
+    private static void addItemsToFoodItemGroup(FabricItemGroupEntries entries) {
         entries.add(CANDIED_APPLE);
         entries.add(CANDY);
     }
@@ -26,6 +26,6 @@ public class ModFoods {
 
     public static void registerModFoods() {
         // CarnivalConfections.LOGGER.info("Registering Mod Foods for " + CarnivalConfections.MOD_ID);
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModFoods::addItemsToIngredientItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(ModFoods::addItemsToFoodItemGroup);
     }
 }
