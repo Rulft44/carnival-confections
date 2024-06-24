@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "carnivalconfections:item/candy"
+    "layer0": "carnivalconfections:item/caramel"
   }
 }
