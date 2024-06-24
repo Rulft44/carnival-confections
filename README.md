@@ -1,3 +1,6 @@
+
+[![Modrinth](https://raw.githubusercontent.com/Rulft44/mod-tools/main/modrinth-badge.svg)](https://modrinth.com/mod/carnival-confections)
+[![Curseforge](https://raw.githubusercontent.com/Rulft44/mod-tools/main/curseforge-badge.svg)](https://curseforge.com/minecraft/mc-mods/carnival-confections)
 # Carnival Confections 🍬
 
 [![Made for ModFest: Carnival](https://raw.githubusercontent.com/ModFest/art/v2/badge/svg/carnival/cozy.svg)](https://modfest.net/carnival)
