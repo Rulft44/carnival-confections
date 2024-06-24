@@ -1,6 +1,13 @@
 {
   "item.carnivalconfections.candied_apple": "Candied Apple",
-  "item.carnivalconfections.candy": "Candy",
+  "item.carnivalconfections.popcorn": "Popcorn",
+  "item.carnivalconfections.strong_candy": "Strong Candy",
+  "item.carnivalconfections.energetic_candy": "Energetic Candy",
+  "item.carnivalconfections.wisp_candy": "Wisp Candy",
+  "item.carnivalconfections.special_candy": "§dSpecial Candy",
+  "item.carnivalconfections.caramel": "Caramel Bottle",
 
-  "itemgroup.carnivalconfections": "Carnival Confections Group"
+  "effect.carnivalconfections.ghost": "Wisp",
+
+  "itemgroup.carnivalconfections": "Carnival Confections"
 }
