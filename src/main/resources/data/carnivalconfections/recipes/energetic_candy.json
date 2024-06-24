@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:rabbit_hide"
+    },
+    {
+      "item": "carnivalconfections:special_candy"
+    },
+    {
+      "item": "carnivalconfections:special_candy"
+    },
+    {
+      "item": "carnivalconfections:special_candy"
+    },
+    {
+      "item": "carnivalconfections:special_candy"
+    }
+  ],
+  "result": {
+    "item": "carnivalconfections:energetic_candy",
+    "count": 4
+  }
+}
