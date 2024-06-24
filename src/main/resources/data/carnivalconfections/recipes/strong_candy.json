@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:magma_cream"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "carnivalconfections:special_candy"
+    },
+    {
+      "item": "carnivalconfections:special_candy"
+    },
+    {
+      "item": "carnivalconfections:special_candy"
+    },
+    {
+      "item": "carnivalconfections:special_candy"
+    }
+  ],
+  "result": {
+    "item": "carnivalconfections:strong_candy",
+    "count": 4
+  }
+}
