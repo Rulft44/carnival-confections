@@ -11,13 +11,13 @@ import net.rulft.carnivalconfections.CarnivalConfections;
 
 public class ModItems {
 
-    // Example:
-    // public static final Item CANDY = registerItem("candy", new Item(new Item.Settings()));
+    public static final Item CARAMEL = registerItem("caramel", new Item(new Item.Settings()));
 
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         // Example:
         // entries.add(CANDY);
+        entries.add(CARAMEL);
     }
 
     private static Item registerItem(String name, Item item) {

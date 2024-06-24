@@ -14,9 +14,13 @@ public class ModItemGroups {
     public static final ItemGroup CARNIVAL_CONFECTIONS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(CarnivalConfections.MOD_ID, "carnivalconfections"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.carnivalconfections"))
-                    .icon(() -> new ItemStack(ModFoods.CANDY)).entries((displayContext, entries) -> {
-                        entries.add(ModFoods.CANDY);
+                    .icon(() -> new ItemStack(ModFoods.SPECIAL_CANDY)).entries((displayContext, entries) -> {
+                        entries.add(ModFoods.SPECIAL_CANDY);
+                        entries.add(ModFoods.STRONG_CANDY);
+                        entries.add(ModFoods.ENERGETIC_CANDY);
+                        //entries.add(ModFoods.WISP_CANDY);
                         entries.add(ModFoods.CANDIED_APPLE);
+                        entries.add(ModFoods.POPCORN);
                     }).build());
 
 
