@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "carnivalconfections:caramel"
+    }
+  ],
+  "result": {
+    "item": "carnivalconfections:special_candy",
+    "count": 4
+  }
+}
