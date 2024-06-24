@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  c",
+    " a ",
+    "s  "
+  ],
+  "key": {
+    "c": {
+      "item": "carnivalconfections:caramel"
+    },
+    "a": {
+      "item": "minecraft:apple"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "carnivalconfections:candied_apple",
+    "count": 1
+  }
+}

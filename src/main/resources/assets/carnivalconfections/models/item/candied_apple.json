@@ -1,6 +1,40 @@
 {
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "carnivalconfections:item/candied_apple"
-  }
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "carnivalconfections:item/candied_apple"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 135],
+			"translation": [0, 4, 1.25],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -135],
+			"translation": [0, 4, 1.25],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -84.25, 180],
+			"translation": [0.75, 4, 0],
+			"scale": [0.63, 0.63, 0.63]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 84.25, 180],
+			"translation": [0.75, 4, 0],
+			"scale": [0.63, 0.63, 0.63]
+		},
+		"ground": {
+			"translation": [0, 0.75, 0],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"head": {
+			"translation": [0, 11.25, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0]
+		}
+	}
 }
