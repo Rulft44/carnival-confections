@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "food",
   "pattern": [
     "  c",
     " a ",
@@ -17,7 +18,7 @@
     }
   },
   "result": {
-    "item": "carnivalconfections:candied_apple",
+    "id": "carnivalconfections:candied_apple",
     "count": 1
   }
 }

@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "category": "food",
   "ingredients": [
     {
       "item": "minecraft:magma_cream"
@@ -21,7 +22,7 @@
     }
   ],
   "result": {
-    "item": "carnivalconfections:strong_candy",
+    "id": "carnivalconfections:strong_candy",
     "count": 4
   }
 }

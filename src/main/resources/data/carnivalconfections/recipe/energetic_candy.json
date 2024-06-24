@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "category": "food",
   "ingredients": [
     {
       "item": "minecraft:sugar"
@@ -21,7 +22,7 @@
     }
   ],
   "result": {
-    "item": "carnivalconfections:energetic_candy",
+    "id": "carnivalconfections:energetic_candy",
     "count": 4
   }
 }

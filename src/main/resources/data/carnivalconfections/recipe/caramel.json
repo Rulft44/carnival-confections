@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
     {
       "item": "minecraft:sugar"
@@ -21,7 +22,7 @@
     }
   ],
   "result": {
-    "item": "carnivalconfections:caramel",
+    "id": "carnivalconfections:caramel",
     "count": 4
   }
 }

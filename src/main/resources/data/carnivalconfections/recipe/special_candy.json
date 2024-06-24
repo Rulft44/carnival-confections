@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "category": "food",
   "ingredients": [
     {
       "item": "minecraft:glowstone_dust"
@@ -12,7 +13,7 @@
     }
   ],
   "result": {
-    "item": "carnivalconfections:special_candy",
+    "id": "carnivalconfections:special_candy",
     "count": 4
   }
 }
